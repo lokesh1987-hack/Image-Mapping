@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    align-content: center;
+    align-items: center;
+    top: 50px;
+    left: 50px;
+    width: 90vw;
+    height: 142vh;
+    background-color: black; 
+    margin: 20px;
+   
+}
+.heading {
+    position: absolute;
+    left: 30px;
+    color: blanchedalmond;
+    margin-top: 5px;
+}
+
+.image img {
+    position: absolute;
+    width: 85vw;     /*   1vW = 6.5px */
+    height: 100vh;   /*   1vh = 8px */
+    margin: 50px 30px 100px 30px;
+}
+
+.description {
+    position: absolute;
+    top: 680px;
+    left: 30px;
+    color: blanchedalmond;
+    font-size: 1.5em;
+}
+.description p{
+  font-size: 1em; 
+}
+
